@@ -8,6 +8,13 @@ Juliette, Julie, and Isabella are a part of the McGill Office of Innovation's [A
 
 Given that the program has a fundamental principle of social good, the idea for this project percolated from an interest in promoting sustainability. **More to add when more is developed**
 
+### Phases of the Project
+
+1. JUNE 20: Image recognition - API design choice
+2. JUNE 25: Categorisation into Compostable, Recyclable, Garbage - incl. improvements to classifier
+3. JUNE 27: UI design
+4. JUNE 29: Wrap up and presentation
+
 ## Thanks to...
 
 - All the mentors who put time aside to teach us about machine learning 
