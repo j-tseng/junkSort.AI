@@ -15,6 +15,10 @@ Given that the program has a fundamental principle of social good, the idea for 
 - [ ] JUNE 27: UI design
 - [ ] JUNE 29: Wrap up and presentation
 
+### Track our progress! 
+
+Refer to the PROGRESS-TRACK document for summarized progress day by day.
+
 ## Thanks to...
 
 - All the mentors who put time aside to teach us about machine learning 
