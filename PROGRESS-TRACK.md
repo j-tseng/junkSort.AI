@@ -23,3 +23,10 @@
 - Updated repo README
 - Created summary document to synthesize and track progress
 - Tested 2 implementations on phones
+- Deliverables of Phase 2:
+	- COMPLETE
+		- Wrote Java code for text layer in Android app to categorise items
+		- Successful trial run on mobile
+	- IN PROGRESS
+		- Improving trained model for image recognition
+		- Developing lists for recyclable and compostable objects for text categorisation layer
