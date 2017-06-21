@@ -10,4 +10,7 @@ Given that the program has a fundamental principle of social good, the idea for 
 
 ## Thanks to...
 
-All the mentors who put time aside to teach us about machine learning and to the power of the Google search engine.
+- All the mentors who put time aside to teach us about machine learning 
+- The power of the Google search engine
+- TensorFlow, Inception from Google
+- [Mindorks Community Android ML Example](https://github.com/MindorksOpenSource/AndroidTensorFlowMachineLearningExample/)
