@@ -11,9 +11,9 @@ Given that the program has a fundamental principle of social good, the idea for 
 ### Phases of the Project
 
 - [x] JUNE 20: Image recognition - API design choice
-- [] JUNE 25: Categorisation into Compostable, Recyclable, Garbage - incl. improvements to classifier
-- [] JUNE 27: UI design
-- [] JUNE 29: Wrap up and presentation
+- [ ] JUNE 25: Categorisation into Compostable, Recyclable, Garbage - incl. improvements to classifier
+- [ ] JUNE 27: UI design
+- [ ] JUNE 29: Wrap up and presentation
 
 ## Thanks to...
 
