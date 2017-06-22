@@ -30,3 +30,16 @@
 	- IN PROGRESS
 		- Improving trained model for image recognition
 		- Developing lists for recyclable and compostable objects for text categorisation layer
+
+## June 22
+
+- No workshops today! Purely work kind of day
+- Within improving the image recognition and classification, 
+	- Went through process for re-training categories on TensorFlow demo example
+	- Figured out optimization of output .pb and .txt files to load on Android
+	- Identifying image sets to include in compostable list
+- Tasks
+	- COMPLETE
+		- Added splash screen to the Android app and other UI changes
+	- IN PROGRESS
+		- Improving trained model for image recognition
