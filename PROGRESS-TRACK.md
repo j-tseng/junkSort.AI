@@ -66,3 +66,19 @@
 	- Make compatible with our version of app OR modify TensorFlow for Poets Android App 
 	- Record demo video for presentation
 	- Make presentation
+- Schedule
+	- Monday: 
+		- Check in with Angelique
+		- Record demo of app with first trained
+			- JT: Orange, plastic waterbottle, paper towel
+			- Isabella: Tea bag
+			- Juliete: Bread
+		- Train another graph with more images
+	- Tuesday:
+		- Test new graph
+		- Investigate changes in confidence percentages
+		- Record demo of app
+	- Wednesday:
+		- Make / finish presentation
+	- Thursday:
+		- Practice, present!
