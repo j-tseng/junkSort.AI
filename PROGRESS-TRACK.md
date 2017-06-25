@@ -43,3 +43,26 @@
 		- Added splash screen to the Android app and other UI changes
 	- IN PROGRESS
 		- Improving trained model for image recognition
+		- Juliette managed to train the model on our giant set of objects! Took 2.5 hrs 
+
+## June 23
+
+- St Jean Baptiste! Day off!
+
+## June 24
+
+- Another day off since we're ahead of schedule
+
+## June 25
+
+- All the buildings on campus were locked. Annoying.
+- We finally made our way to Starbucks to work, thank god for Starbucks
+- Where we're at:
+	- Have the newly trained model
+	- Works on TensorFlow for Poets Android App
+		- Continuous object recognition / detection rather than button push
+	- Does not work on our version... why? SAD!
+- Remaining Steps:
+	- Make compatible with our version of app OR modify TensorFlow for Poets Android App 
+	- Record demo video for presentation
+	- Make presentation
