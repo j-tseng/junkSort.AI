@@ -70,6 +70,9 @@
 	- Monday: 
 		- Check in with Angelique
 		- Record demo of app with first trained
+			- JT: Orange, plastic waterbottle, paper towel
+			- Isabella: Tea bag
+			- Juliete: Bread
 		- Train another graph with more images
 	- Tuesday:
 		- Test new graph
