@@ -12,15 +12,19 @@ Given that the program has a fundamental principle of social good, the idea for 
 
 - [ ] PART 1: Image recognition
 	- [x] API design choice --> TensorFlow, Inception
+	- [x] Minimum viable product - retrain neural net
 	- [ ] Optimizing model to recognize more objects and with higher accuracy
-- [ ] PART 2: Categorisation
+- [x] PART 2: Categorisation
 	- [x] Write code for layer between labeling and output to categorize objects as recyclable, compostable, or trash
-	- [ ] Develop item lists to use for categorisation
-- [ ] PART 3: App Design
+	- [x] Develop item lists to use for categorisation
+- [x] PART 3: App Design
 	- [x] Decide on operating system --> Android
 	- [x] Test on device for minimum viable product  --> Works but classification is weak
-	- [ ] Improve on User Interface design
+	- [x] Improve on User Interface design
 - [ ] PART 4: Wrap up and presentation
+	- [x] Create presentation template
+	- [ ] Fill in content
+	- [ ] Practice presentation
 
 ### Track our progress! 
 
@@ -30,5 +34,5 @@ Refer to the PROGRESS-TRACK document for summarized progress day by day.
 
 - All the mentors who put time aside to teach us about machine learning 
 - The power of the Google search engine
-- TensorFlow, Inception from Google
+- TensorFlow, Inception V3 from Google
 - [Mindorks Community Android ML Example](https://github.com/MindorksOpenSource/AndroidTensorFlowMachineLearningExample/)
