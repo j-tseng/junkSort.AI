@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity {
     private static final String INPUT_NAME = "Mul";
     private static final String OUTPUT_NAME = "final_result";
     
-	private static ArrayList<String> RECYCLABLE = new ArrayList<>();
-	private static ArrayList<String> COMPOSTABLE = new ArrayList<>();
+	private static ArrayList<String> RECYCLING = new ArrayList<>();
+	private static ArrayList<String> COMPOST = new ArrayList<>();
 
     private static final String MODEL_FILE = "file:///android_asset/rounded_graph.pb";
     private static final String LABEL_FILE =
-            "file:///android_asset/imagenet_comp_graph_label_strings.txt";
+            "file:///android_asset/retrained_labels.txt";
 
     private Classifier classifier;
     private Executor executor = Executors.newSingleThreadExecutor();
@@ -92,9 +92,16 @@ public class MainActivity extends AppCompatActivity {
                 final List<Classifier.Recognition> results = classifier.recognizeImage(bitmap);
                 
                 item = results.toString();
-                bin = checkCat(item);
+                float conf = results.get(0).getConfidence();
 
-                textViewResult.setText(bin + item);
+                if (conf > 0.5) {
+                    bin = checkCat(item);
+                    textViewResult.setText("This belongs in the " + bin + ".\n I am "
+                            + String.format("(%.1f%%) ", conf * 100.0f)
+                            + "confident.");
+                }
+                else
+                    textViewResult.setText("This belongs in the TRASH.");
             }
         });
 
@@ -172,33 +179,43 @@ public class MainActivity extends AppCompatActivity {
 	private String checkCat(String item) {
 		String cat = "temp";
         genLists();
-		for (String thing : RECYCLABLE) {
+		for (String thing : RECYCLING) {
 			if (item.contains(thing))
-				cat = "RECYCLABLE";
+				cat = "RECYCLING";
 		}
-		for (String thing : COMPOSTABLE) {
+		for (String thing : COMPOST) {
 			if (item.contains(thing))
-				cat = "COMPOSTABLE";
+				cat = "COMPOST";
 		}
-		if(cat == "temp")
-		    cat = "TRASH";
 		return cat;
 	}
 	
 	private void genLists() {
-		if(RECYCLABLE.size() == 0 || COMPOSTABLE.size() == 0) {
+		if(RECYCLING.size() == 0) {
 		    try {
 		        BufferedReader bReader = new BufferedReader(new InputStreamReader(getAssets().open("recList.txt")));
 		        String line = bReader.readLine();
 		        while (line != null) {
-		            RECYCLABLE.add(line);
+		            RECYCLING.add(line);
 		            line = bReader.readLine();
 		        }
 		        bReader.close();
 		    } catch (IOException e) {
 		        e.printStackTrace();
 		    }
-			
 		}
+        if(COMPOST.size() == 0) {
+            try {
+                BufferedReader bReader = new BufferedReader(new InputStreamReader(getAssets().open("compList.txt")));
+                String line = bReader.readLine();
+                while (line != null) {
+                    COMPOST.add(line);
+                    line = bReader.readLine();
+                }
+                bReader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 	}
 }
