@@ -85,24 +85,9 @@
 
 ## June 26 
 
-- Check in speaking points:
-	- Project recap - image recognition app for trash sorting into recycling, compost, garbage
-	- One week ago:
-		- Research on other implementations, available tools
-		- Identified features we wanted in the app
-		- Broke project down into smaller tasks
-		- Sketched out timeline
-	- Since then:
-		- Lots of debugging! 
-		- Met every day except Fri/Sat
-		- Recap at beginning, summary and next steps at end of each session
-		- Progress tracking on Github document
-	- Where our app is at:
-		- Achieved minimum viable product yesterday
-		- Android app that spits out category and confidence level
-		- Retrained with our own categories on Inception V3
-	- What's left:
-		- Continue investigating improvements to and scaling of the classifier's object recognition
-		- Work on the presentation
-	- Happy to take questions on how we implemented the features or you can wait until the final presentation!
-- 
+- Check in with Angelique - went well
+- Next steps:
+	- Isabella - cleaning category images => DONE
+	- Re-train graph and transfer to app => Juliette tonight to train graph
+- Tomorrow:
+	- Follow June 27 schedule in previous post
