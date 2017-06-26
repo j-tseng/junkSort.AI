@@ -33,6 +33,23 @@ Refer to the PROGRESS-TRACK document for summarized progress day by day.
 ## Thanks to...
 
 - All the mentors who put time aside to teach us about machine learning 
-- The power of the Google search engine
-- TensorFlow, Inception V3 from Google
-- [Mindorks Community Android ML Example](https://github.com/MindorksOpenSource/AndroidTensorFlowMachineLearningExample/)
+- The power of the Google search engine, StackExchange
+- TensorFlow (Google)
+	- [Getting Started](https://www.tensorflow.org/get_started/)
+	- [Retraining tutorial](https://www.tensorflow.org/tutorials/image_retraining)
+- Inception V3 
+	- [Original release paper](https://arxiv.org/abs/1512.00567)
+	- [Github](https://github.com/tensorflow/models/tree/master/inception)
+- Mindorks Community
+	- [Android ML Example](https://github.com/MindorksOpenSource/AndroidTensorFlowMachineLearningExample/)
+- TensorFlow for Poets Retraining Tutorials
+	- [Introduction](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
+	- [Android implementation](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2/#0)
+- Gary Thung and Mindy Yang - TrashBot sorting implementation
+	- [Paper](http://cs229.stanford.edu/proj2016/report/ThungYang-ClassificationOfTrashForRecyclabilityStatus-report.pdf)
+	- [Github](https://github.com/garythung/trashnet)
+- Gautier Mechling - Using TensorFlow on Android, how to train on your own categories
+	- [Blog post](http://nilhcem.com/android/custom-tensorflow-classifier)
+	- [Github](https://github.com/Nilhcem/tensorflow-classifier-android)
+- ImageNet
+	- [Category images](http://image-net.org/download)
