@@ -1,0 +1,7 @@
+paper
+plastic
+glass
+cardboard
+metal
+flyer
+
