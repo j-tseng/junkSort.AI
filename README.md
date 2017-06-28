@@ -2,7 +2,7 @@
 
 ## About the Contributors
 
-Juliette, Julie, and Isabella are a part of the McGill Office of Innovation's [AI for Social Good Summer Lab](https://www.mcgill-innovation.com/ai-summer-lab). This program entails a two week crash course in machine learning and a two week project development phase for members of the lab. 
+[Juliette Lavoie](https://www.linkedin.com/in/juliette-lavoie-ab8086143/), [Julie Tseng](https://www.linkedin.com/in/julietseng), and [Isabella Nikolaidis](https://www.linkedin.com/in/isabella-nikolaidis-227227141/) are a part of the McGill Office of Innovation's [AI for Social Good Summer Lab](https://www.mcgill-innovation.com/ai-summer-lab). This program entails a two week crash course in machine learning and a two week project development phase for members of the lab. 
 
 ## About the Project
 
