@@ -45,10 +45,10 @@ Given that the program has a fundamental principle of social good, the idea for 
 	- [x] Decide on operating system --> Android
 	- [x] Test on device for minimum viable product  --> Works but classification is weak
 	- [x] Improve on User Interface design
-- [ ] PART 4: Wrap up and presentation
+- [x] PART 4: Wrap up and presentation
 	- [x] Create presentation template
-	- [ ] Fill in content
-	- [ ] Practice presentation
+	- [x] Fill in content
+	- [x] Practice presentation
 
 ### Project progression 
 
