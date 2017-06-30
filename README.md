@@ -14,7 +14,7 @@ Given that the program has a fundamental principle of social good, the idea for 
 
 - Android application based on the [Android ML Example](https://github.com/MindorksOpenSource/AndroidTensorFlowMachineLearningExample/) from the Mindorks community
 - Uses the Google [TensorFlow API](https://tensorflow.org) in Java
-- Trains the new objects for recycling/compost/trash classification as a final layer on top of pre-trained [Inception V3]((https://arxiv.org/abs/1512.00567)
+- Trains the new objects for recycling/compost/trash classification as a final layer on top of pre-trained [Inception V3](https://arxiv.org/abs/1512.00567)
 - Images for final layer taken from [ImageNet](http://www.image-net.org/) sets and contributed by [Gary Thung and Mindy Yang](https://github.com/garythung/trashnet) who also made a trash sorting AI application called TrashNet
 - Recognized images classified into .txt lists for each category
 - Modifications made to the MainActivity, Classifier, and TensorFlowImageClassifier Java files change text displayed on screen from image label to appropriate category
